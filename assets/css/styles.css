@@ -73,10 +73,11 @@ footer {
   text-decoration: none;
   margin-bottom: 0.4em;
   transition: color 0.2s ease;
+  color: #2b2b2b
 }
 
 .footer-links a:hover {
-  color: #f8367f;
+  color: #4e04d0;
 }
 
 .footer-socials {
@@ -135,7 +136,7 @@ ul.icons li .icon {
   height: 64px;
   border-radius: 50%;
   background: rgba(122, 45, 255, 0.08);
-  color: #4b2aad;
+  color: #2b2b2b;
   transition: all 0.2s ease;
   text-decoration: none;
 }
@@ -145,7 +146,7 @@ ul.icons li .icon:before {
 }
 
 ul.icons li .icon:hover {
-  background: #919191;
+  background: #4f04d076;;
   color: white;
   transform: scale(1.2);
   box-shadow: 0 8px 20px rgba(122, 45, 255, 0.25);
@@ -352,7 +353,7 @@ ul.icons li .icon:hover {
   position: relative;
   overflow: hidden;
   min-height: 420px;
-  background: linear-gradient(180deg, #e3daff, #faf7ff);
+  background: linear-gradient(180deg, #c2afff, #faf7ff);
   height: 100vh;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -541,10 +542,18 @@ ul.icons li .icon:hover {
   white-space: nowrap;
 }
 
-p.subtext,
-p.degree,
-#footer h4,
-#event-description,
-#cta p {
-  color: black !important;
+#footer p {
+  color: #333;
+}
+
+.footer-contact p {
+  color: #444;
+}
+
+#footer h4 {
+  color: #4e04d0;
+}
+
+.footer-bottom {
+  color: #666;
 }
